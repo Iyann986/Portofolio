@@ -13,7 +13,7 @@ class SiteLogo extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: const Text(
-        "AK",
+        "Oktavian Hisdianton",
         style: TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,

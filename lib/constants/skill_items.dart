@@ -4,16 +4,16 @@ const List<Map> platformItems = [
     "title": "Android Dev",
   },
   {
-    "img": "assets/web_icon.png",
-    "title": "Web Dev",
-  },
-  {
-    "img": "assets/ios_icon.png",
-    "title": "IOS Dev",
+    "img": "assets/qa_icon.png",
+    "title": "QA Testing",
   },
   {
     "img": "assets/desktop_icon.png",
-    "title": "Desktop Dev",
+    "title": "UI UX Design",
+  },
+  {
+    "img": "assets/video_icon.png",
+    "title": "Video Editor",
   }
 ];
 
@@ -39,15 +39,23 @@ const List<Map> skillItems = [
     "title": "JS",
   },
   {
-    "img": "assets/hugo.png",
-    "title": "Hugo",
+    "img": "assets/figma.png",
+    "title": "Figma",
   },
   {
-    "img": "assets/docker.png",
-    "title": "Docker",
+    "img": "assets/katalon.png",
+    "title": "Katalon",
+  },
+  {
+    "img": "assets/cypress.png",
+    "title": "Cypress",
   },
   {
     "img": "assets/python.png",
     "title": "Python",
-  }
+  },
+  {
+    "img": "assets/adobe.png",
+    "title": "Premiere Pro",
+  },
 ];
