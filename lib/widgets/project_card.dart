@@ -72,13 +72,13 @@ class ProjectCardWidget extends StatelessWidget {
                   ),
                 ),
                 const Spacer(),
-                if (project.iosLink != null)
+                if (project.linkedinLink != null)
                   InkWell(
                     onTap: () {
-                      js.context.callMethod("open", [project.iosLink]);
+                      js.context.callMethod("open", [project.linkedinLink]);
                     },
                     child: Image.asset(
-                      "assets/ios_icon.png",
+                      "assets/linkedin.png",
                       width: 19,
                     ),
                   ),
@@ -91,6 +91,32 @@ class ProjectCardWidget extends StatelessWidget {
                       },
                       child: Image.asset(
                         "assets/android_icon.png",
+                        width: 17,
+                      ),
+                    ),
+                  ),
+                if (project.githubLink != null)
+                  Padding(
+                    padding: const EdgeInsets.only(left: 6),
+                    child: InkWell(
+                      onTap: () {
+                        js.context.callMethod("open", [project.githubLink]);
+                      },
+                      child: Image.asset(
+                        "assets/github.png",
+                        width: 17,
+                      ),
+                    ),
+                  ),
+                if (project.iosLink != null)
+                  Padding(
+                    padding: const EdgeInsets.only(left: 6),
+                    child: InkWell(
+                      onTap: () {
+                        js.context.callMethod("open", [project.iosLink]);
+                      },
+                      child: Image.asset(
+                        "assets/ios_icon.png",
                         width: 17,
                       ),
                     ),
